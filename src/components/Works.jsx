@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  platform,
 }) => {
   return (
     //index * 0.5 is to make thme show up one by one therefore after each other
@@ -26,11 +27,11 @@ const ProjectCard = ({
         }}
         className=" bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[210px] object-contain">
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl "
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
@@ -38,8 +39,8 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
-                alt={github}
+                src={platform}
+                alt={platform}
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>

@@ -19,10 +19,13 @@ import {
   byjus,
   rahnamashipbuilding,
   analytica,
-  carrent,
-  jobit,
-  tripguide,
+  carConnect,
+  LinearApp,
+  hoverEffect,
+  RahnamaShipbuilding,
   cplus,
+  github,
+  byjusDesign,
 } from "../assets";
 
 export const navLinks = [
@@ -148,7 +151,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Nov 2022 - Feb 2023",
     points: [
-      "Developing and maintaining web ompany's website using HTML, CSS, JavaScript, and PHP.",
+      "Developing and maintaining web company's website using HTML, CSS, JavaScript, and PHP.",
       "Configured and installed PC and network infrastructure, ensuring seamless operations and optimizing workflow efficiency through the integration of streamlined technologies.",
     ],
   },
@@ -168,66 +171,62 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Car Connect",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A demo of a web-based platform that allows users to search for cars of their choice to rent, providing car details and daily rates. This platform offers a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: carConnect,
+    source_code_link: "https://github.com/beer-b2/carConnect/tree/main",
+    platform: github,
   },
   {
-    name: "Job IT",
+    name: "LinearApp Website Rebuilt",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Rebuilt the Liner app website landing page by recreating a unique and modern UI design.",
     tags: [
       {
-        name: "react",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: LinearApp,
+    source_code_link: "https://github.com/beer-b2/LinearApp-Website-Rebuilt",
+    platform: github,
+  },
+  {
+    name: "Hover Effect",
+    description:
+      "A custom cursor with a mask hover effect revealing text underneath.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Framer Motion",
         color: "green-text-gradient",
       },
       {
@@ -235,20 +234,21 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: hoverEffect,
+    source_code_link: "https://github.com/beer-b2/Secret-Message/tree/main",
+    platform: github,
   },
   {
-    name: "Trip Guide",
+    name: "Rahnama Shipbuilding",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The first landing page I created for a client was developed without any prior experience in web development.",
     tags: [
       {
-        name: "nextjs",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "php",
         color: "green-text-gradient",
       },
       {
@@ -256,9 +256,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: RahnamaShipbuilding,
+    source_code_link: "https://rahnamaholding.com",
+    platform: github,
+  },
+
+  {
+    name: "Designs at BYJU'S",
+    description:
+      "Some of the designs I created for BYJU'S marketing team during my tenure include...",
+    tags: [
+      {
+        name: "figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "canva",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: byjusDesign,
+    source_code_link:
+      "https://www.figma.com/file/PUtJ4Sp4CbABMdZ9fcaqOg/Designs-at-BYJU'S?type=design&mode=design&t=JvJGLruk57MIbSII-1",
+    platform: figma,
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

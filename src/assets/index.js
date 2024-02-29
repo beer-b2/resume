@@ -26,9 +26,11 @@ import analytica from "./company/analytica.png";
 import byjus from "./company/byjus.png";
 import rahnamashipbuilding from "./company/rahnamashipbuilding.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carConnect from "./carConnect.png";
+import LinearApp from "./LinearApp.png";
+import hoverEffect from "./hoverEffect.png";
+import RahnamaShipbuilding from "./RahnamaShipbuilding.png";
+import byjusDesign from "./byjusDesign.png";
 
 export {
   logo,
@@ -56,7 +58,9 @@ export {
   analytica,
   byjus,
   rahnamashipbuilding,
-  carrent,
-  jobit,
-  tripguide,
+  carConnect,
+  LinearApp,
+  hoverEffect,
+  RahnamaShipbuilding,
+  byjusDesign,
 };
