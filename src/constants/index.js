@@ -238,7 +238,7 @@ const projects = [
     ],
     image: hoverEffect,
     source_code_link: "https://github.com/beer-b2/Secret-Message/tree/main",
-    website: "https://github.com/beer-b2/Secret-Message/tree/main",
+    website: "https://secret-message-64ba.vercel.app",
     platform: github,
   },
   {
