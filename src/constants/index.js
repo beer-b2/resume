@@ -173,7 +173,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Connect",
+    name: "CarConnect",
     description:
       "A demo of a web-based platform that allows users to search for cars of their choice to rent, providing car details and daily rates. This platform offers a convenient and efficient solution for transportation needs.",
     tags: [
@@ -192,6 +192,7 @@ const projects = [
     ],
     image: carConnect,
     source_code_link: "https://github.com/beer-b2/carConnect/tree/main",
+    website: "https://car-connect-one.vercel.app/",
     platform: github,
   },
   {
@@ -214,6 +215,7 @@ const projects = [
     ],
     image: LinearApp,
     source_code_link: "https://github.com/beer-b2/LinearApp-Website-Rebuilt",
+    website: "https://linear-app-website-rebuilt.vercel.app/",
     platform: github,
   },
   {
@@ -236,6 +238,7 @@ const projects = [
     ],
     image: hoverEffect,
     source_code_link: "https://github.com/beer-b2/Secret-Message/tree/main",
+    website: "https://github.com/beer-b2/Secret-Message/tree/main",
     platform: github,
   },
   {
@@ -258,6 +261,7 @@ const projects = [
     ],
     image: RahnamaShipbuilding,
     source_code_link: "https://rahnamaholding.com",
+    website: "https://rahnamaholding.com",
     platform: github,
   },
 
@@ -277,6 +281,8 @@ const projects = [
     ],
     image: byjusDesign,
     source_code_link:
+      "https://www.figma.com/file/PUtJ4Sp4CbABMdZ9fcaqOg/Designs-at-BYJU'S?type=design&mode=design&t=JvJGLruk57MIbSII-1",
+    website:
       "https://www.figma.com/file/PUtJ4Sp4CbABMdZ9fcaqOg/Designs-at-BYJU'S?type=design&mode=design&t=JvJGLruk57MIbSII-1",
     platform: figma,
   },
